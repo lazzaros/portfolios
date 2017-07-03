@@ -1,0 +1,18 @@
+.subscription-wrapper {
+    padding: 30px 0;
+}
+.under-sub-txt {
+    font-size: 25px;
+    text-transform: capitalize;
+    margin-top: -6%;
+}
+.email-input {
+    margin-top: 26%;
+    border: 1px solid black;
+    width: 100%;
+}
+.sub-button {
+    @include quantox-btn;
+    width: 220px;
+    margin: 38% 0 0 15%;
+}

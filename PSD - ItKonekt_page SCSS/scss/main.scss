@@ -1,0 +1,28 @@
+@import "bootstrap/_bootstrap";
+
+@import "global/_variables";
+@import "global/_mixin";
+@import "global/_header";
+@import "global/_footer";
+
+
+@import "partials/_section-1";
+@import "partials/_section-2";
+@import "partials/_section-3";
+@import "partials/_contact";
+@import "partials/_subscription";
+
+html {
+  font-family: 'Open Sans', sans-serif;
+}
+body{
+    background: #fff;
+}
+h1 {
+    @include h1;
+    }
+h3 {
+    @include h3;
+}
+
+

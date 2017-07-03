@@ -1,0 +1,12 @@
+.day-speakers-wrapper {
+    @include bcgimg(section-2-bcg);
+    padding: 150px 0px;
+        background-repeat: no-repeat;
+}
+.green-txt {
+    @include font-special-green;
+}
+.gray-txt {
+    @include font-special-gray;
+    margin-top: -18%;
+}

@@ -1,0 +1,159 @@
+
+@media screen and (max-width: 1550px) {
+.green-wrapper {
+    font-size: 30px;
+    }
+.txt-middle-strong {
+    font-size: 40px;
+    }
+.txt-strong {
+    font-size: 55px;
+}
+.it-img {
+    width: 30%;
+}
+}
+
+@media screen and (max-width: 1350px) {
+.green-wrapper {
+    font-size: 25px;
+    }
+.txt-middle-strong {
+    font-size: 30px;
+    }
+.txt-strong {
+    font-size: 45px;
+}
+.it-img {
+    width: 30%;
+}
+}
+
+@media screen and (max-width: 1250px) {
+    .head-wrapper {
+        margin-left: 5%;
+    }
+    h1 {
+        font-size: 40px;
+    }
+    .under-sub-txt {
+        font-size: 17px;
+    }
+    .subscription-wrapper h1 {
+        padding-top: 20px;
+    }
+    .place-time-wrapper i {
+        margin: 5% 0 0;
+    }
+    .sub-left {
+        margin: 0px;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .green-wrapper {
+        font-size: 20px;
+        }
+    .txt-middle-strong {
+        font-size: 25px;
+        }
+    .txt-strong {
+        font-size: 35px;
+    }
+    .it-img {
+        width: 50%;
+    }
+    .logo-img {
+        padding-top: 10%;
+    }
+    .green-txt {
+        font-size: 90px;
+    }
+    .gray-txt {
+        font-size: 20px;
+    }
+    .about-img {
+        padding-top: 40%;
+    }
+    h1 {
+        font-size: 35px;
+    }
+    .sub-button {
+        width: 140px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+        .logo-img {
+        padding-top: 0px;
+    }
+    .navbar-default .navbar-collapse {
+        padding-top: 4%;
+        border-top: none;
+    }
+    .head-wrapper {
+        margin-top: 20%;
+    }
+    .green-wrapper {
+        font-size: 15px;
+    }
+    .about-img {
+        width: 100%;
+        height: 100%;
+        padding-top: 0px;
+    }
+    .email-input {
+    margin-top: 5%;
+    width: 85%;
+    }
+}
+
+@media screen and (max-width: 580px) {
+    .green-wrapper {
+        font-size: 12px;
+    }
+    .head-wrapper {
+        margin-top: 30%;
+    }
+    .gray-txt {
+        font-size: 15px;
+    }
+}
+
+
+@media screen and (max-width: 500px) {
+    .logo-img {
+        width: 70%;
+    }
+        .green-wrapper {
+        font-size: 10px;
+    }
+    .gray-txt {
+        font-size: 12px;
+        margin-top: -39%;
+    }
+
+}
+
+@media screen and (max-width: 380px) {
+    .green-wrapper {
+        font-size: 8px;
+    }
+    .txt-middle-strong {
+        font-size: 20px;
+    }
+    .txt-strong {
+        font-size: 30px;
+    }
+    .green-txt{
+        font-size: 65px;
+    }
+    .gray-txt {
+        font-size: 10px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+
+}
+

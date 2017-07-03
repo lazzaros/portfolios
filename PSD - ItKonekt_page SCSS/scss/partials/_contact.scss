@@ -1,0 +1,18 @@
+.contact-wrapper {
+    @include bcgimg(contact-bcg);
+    background-size: cover;
+}
+.contact-wrapper h1 {
+    color: $grayDark;
+    padding-left: 12px;
+}
+.contact-button {
+    @include quantox-btn;
+    margin-left: 15px;
+}
+.contact-bcg {
+    background-color: transparent;
+}
+.contact-wrapper input {
+    border-bottom: 1px solid white;
+}

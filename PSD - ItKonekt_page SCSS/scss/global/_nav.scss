@@ -1,0 +1,50 @@
+/* NAVIGATION */
+
+.navbar-my {
+    background-color: transparent;
+    border:none;
+    font-size: $nav-font-size;
+    color: $mainFontColor;
+}
+
+.navbar-right {
+    margin-top: 10px;
+    text-transform: uppercase; 
+    font-weight: bold;
+}
+
+.navbar-default .navbar-nav > li > a {
+    &:hover, &:focus {
+    color: $mainColor;
+    border-bottom: 2px solid $mainColor;
+    }
+}
+
+.navbar-default .navbar-nav > .active > a {
+    color: $mainFontColor;
+    background-color: transparent;
+    border-bottom: 2px solid $mainColor;
+}
+
+.navbar-default .navbar-nav > .active > a {
+    color: $mainFontColor;
+    background-color: transparent;
+        &:hover, &:focus {
+        color: $mainFontColor;
+        background-color: transparent;
+    }
+}
+.navbar-default .navbar-nav > li > a {
+    color: $mainFontColor;
+}
+.contact-btn {
+    @include quantox-btn;
+    margin: 0px;
+
+    &:hover, &:active {
+        a {
+            border-bottom: none !important;
+            color: $mainFontColor !important;
+        }
+    }
+}

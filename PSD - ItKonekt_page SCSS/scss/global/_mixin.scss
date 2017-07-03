@@ -1,0 +1,50 @@
+@mixin bcgimg($value) {
+    background-image: url(../img/#{$value}.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+@mixin h1 {
+    font-size: 60px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color:#000;
+    padding-bottom: 30px;
+}
+@mixin h3 {
+    font-size: 40px;
+    font-weight: bold;
+    text-transform: normal;
+    color:$blackFontColor;
+    text-transform: capitalize;
+}
+@mixin quantox-btn {
+    background-color: #98cb3b;
+    color: #fff;
+    border-radius: 0px;
+    text-transform: uppercase;
+    font-weight: bold;
+    border: 1px solid #98cb3b;
+    height: 50px;
+    margin: 15px 0 50px;
+}
+@mixin txtstr {
+    font-size: 70px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color:$mainFontColor;
+}
+@mixin sub-border {
+    border-bottom: 2px solid $grayColor;
+    margin: 2% 0 5%;
+}
+@mixin font-special-green {
+    font-size: 150px;
+    color:$mainColor;
+}
+@mixin font-special-gray {
+    font-size: 29.5px;
+    color: $grayDark;
+    font-weight: $textBold;
+    text-transform: uppercase;
+
+}

@@ -1,0 +1,36 @@
+@import "nav";
+
+.head-backgraund {
+@include bcgimg(head_background);
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+    /* height: 1368px; */
+    margin-top: -400px;
+    padding-top: 400px;
+    padding-bottom: 10%;
+}
+.head-wrapper {
+    margin-top: 10%;
+}
+
+.txt-strong {
+    @include txtstr;
+}
+.txt-middle-strong {
+    @include txtstr;
+    font-size: 50px;
+}
+.green-wrapper {
+    border-color: $mainColor;
+    background: $mainColor;
+    width: 50%;
+    @include txtstr;
+    font-size: 40px;
+    text-align: right;
+    padding-right: 4%;
+    margin-top: 2%;
+}
+.experts {
+    color:$charryColor;
+}

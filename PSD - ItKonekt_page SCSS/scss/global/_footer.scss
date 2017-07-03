@@ -1,0 +1,31 @@
+footer{
+    background-color: #000;
+    }
+.get-in-txt {
+    font-size: 20px;
+    color:$mainFontColor;
+    font-weight: bold;
+    padding-top: 5%;
+    }
+.social-wrapper {
+
+    }
+.social-wrapper i {
+font-size: 24px;
+    color: #fff;
+    border: 1px solid white;
+    padding: 10px;
+    border-radius: 50%;
+    display: inline-block;
+    width: 45px;
+    margin: 0 5px;
+    }
+.e-adress {
+    font-size: $mid-font-size;
+    color: $mainFontColor;
+    padding: 3% 0;
+   }
+.copyright {
+    color: $mainFontColor;
+    font-size: $base-font-size;
+}
