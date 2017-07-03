@@ -1,0 +1,27 @@
+/*TABLET SCREENS*/
+@media screen and (max-width: 768px) {
+    #bs-example-navbar-collapse-1 {
+        width: 100%;
+        background-color: #eaeaea;
+        position: absolute;
+        z-index: 3;
+    }
+    
+}
+
+/*MOBILE SCREENS*/
+@media screen and (max-width: 520px) {
+    .sub-img, .sub-img2 {
+        margin: 0;
+    }
+    .foo {
+        font-size: 1.4em;
+    }
+    .pozadina2 {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 520px) {
+  
+}
