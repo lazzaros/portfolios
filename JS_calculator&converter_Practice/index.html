@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title> Calculator & Converter</title>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://opensource.keycdn.com/fontawesome/4.7.0/font-awesome.min.css" integrity="sha384-dNpIIXE8U05kAbPhy3G1cz+yZmTzA6CY8Vg/u2L9xRnHjJiAK76m2BIEaSEV+/aU" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css" />
+
+</head>
+
+<body class="img-bcg" id="bcg">
+
+    <form>
+        <!-- Drop-down -->
+        <div class="dropdown">
+            <button class="btn btn-primary dropdown-toggle btn" type="button" data-toggle="dropdown">Izaberi
+                <span class="caret" class="btn-drop"></span></button>
+            <ul class="dropdown-menu">
+                <li class="btn-drop"><a href="#" class="converterbtn" onclick="Calculator()">Calculator</a></li>
+                <li><a href="#" id="converter-click" class="converterbtn" onclick="DropDown()">Converter</a></li>
+                <li><a href="#" id="converter-click" class="converterbtn" onclick="CalculatorIP()">IP Calculator</a></li>
+            </ul>
+            <div id="time" class="time">Time</div>
+        </div>
+        <div>
+            <img src="img/lazzaro.png" alt="" class="img-responsive log-pic" />
+        </div>
+    </form>
+
+    <section class="margin">
+        <!-- Calculator -->
+        <div class="calculator" id="calculator">
+            <form name="frm" class="padd">
+                <input type="" name="result" class="box" disabled>
+                </br>
+                <input type="button" class="num" name="1" value="1" onclick="number(this)" />
+                <input type="button" class="num" name="2" value="2" onclick="number(this)" />
+                <input type="button" class="num" name="3" value="3" onclick="number(this)" />
+                <input type="button" class="num" name="4" value="4" onclick="number(this)" />
+                <input type="button" class="num" name="5" value="5" onclick="number(this)" />
+                <input type="button" class="num" name="6" value="6" onclick="number(this)" />
+
+                <input type="button" class="num" name="7" value="7" onclick="number(this)" />
+                <input type="button" class="num" name="8" value="8" onclick="number(this)">
+                <input type="button" class="num" name="9" value="9" onclick="number(this)">
+                <input type="button" class="num" name="0" value="0" onclick="number(this)">
+
+                <input type="button" class="ops plus" value="+" name="+" onclick="norepeat(this)">
+                <input type="button" class="ops" value="-" name="-" onclick="norepeat(this)">
+                <input type="button" class="ops" value="*" name="*" onclick="norepeat(this)">
+                <input type="button" class="ops" value="/" name="/" onclick="norepeat(this)">
+                <input type="button" class="ops" value="." name="." onclick="norepeat(this)">
+                <input type="button" id="equals" class="jednako" value="=" onclick="calculatoreval()">
+                <input type="button" name="C" class="ops jednako" value="C" onclick="buttonCe()">
+                <input type="button" name="CE" class="ops jednako" value="DEL" onclick="buttonDel()">
+            </form>
+        </div> <!-- end of calculator -->
+
+        <div class="img-conv" id="converter">
+            <form name="converter" class="form2">
+                <table border="0">
+                    <tr>
+                        <td>
+                            <p class="textiznos">Euro: </p>
+                        </td>
+                        <td>
+                            <input type="text" name="euro" onchange="euroConverter()" />
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <p class="textiznos">US Dollar: </p>
+                        </td>
+                        <td>
+                            <input type="text" name="dollar" onchange="dollarConverter()" />
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <p class="textiznos">British Pound:</p>
+                        </td>
+                        <td>
+                            <input type="text" name="pound" onchange="poundConverter()" />
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <p class="textiznos">Japanese Yen: </p>
+                        </td>
+                        <td>
+                            <input type="text" name="yen" onchange="yenConverter()" />
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <p class="textiznos">Dinar </p>
+                        </td>
+                        <td>
+                            <input type="text" name="dinar" onchange="dinarConverter()" />
+                        </td>
+                    </tr>
+                    <td colspan="5" align="right">
+                        <input type="button" value="Delete" class="btn2" onclick="Clear()" name="">
+                    </td>
+                </table>
+            </form>
+        </div>
+
+        <!--CAlculator IP-->
+        <div id="ipcalculator-img" class="img3 ip">
+            <form name="ipcalculator" class="ipcalculator" id="converter-click">
+                <!--ip convertor-->
+                <p>Ip Calculator</p>
+                <input type="text" class="add" id="q1" /> .
+                <input type="text" class="add" id="q2" /> .
+                <input type="text" class="add" id="q3" /> .
+                <input type="text" class="add" id="q4" /> /
+                <input type="text" class="add" id="cidr" />
+                <button class="btnip" onclick="ipCalculator()">Calculate</button>
+
+                <div class="container">
+                    <div class="resultip">
+                        <span class="label">Ip address:</span>
+                        <span class="value" id="resIP"></span>
+                    </div>
+                    <div class="resultip">
+                        <span class="label">Subnet Mask:</span>
+                        <span class="value" id="resMask"></span>
+                    </div>
+                    <div class="resultip">
+                        <span class="label">Net address:</span>
+                        <span class="value" id="resNet"></span>
+                    </div>
+                    <div class="resultip">
+                        <span class="label">Broadcast address:</span>
+                        <span class="value" id="resBC"></span>
+                    </div>
+                    <div class="resultip">
+                        <span class="label">Standard Class:</span>
+                        <span class="value" id="resClass"></span>
+                    </div>
+                    <div class="resultip">
+                        <span class="label">Range:</span>
+                        <span class="value" id="resRange"></span>
+                    </div>
+                    <div class="resultip">
+                        <span class="label">IP Binary:</span>
+                        <span class="value" id="resBinIP"></span>
+                    </div>
+                    <div class="resultip">
+                        <span class="label">Mask Binary:</span>
+                        <span class="value" id="resBinMask"></span>
+                    </div>
+                    <div class="resultip">
+                        <span class="label">Net Address Binary:</span>
+                        <span class="value" id="resBinNet"></span>
+                    </div>
+                    <div class="resultip">
+                        <span class="label">BC Address Binary:</span>
+                        <span class="value" id="resBinBC"></span>
+                    </div>
+                </div>
+            </form> <!-- calculator -->
+        </div> <!-- calculator -->
+    </section>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="js.js"></script>
+</body>
+
+</html>

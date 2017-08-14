@@ -1,0 +1,251 @@
+
+
+.btn{
+  background-color: rgba(128, 128, 128, 0.41);
+    color: rgba(238, 130, 238, 0.77);
+    margin-left: 40px;
+    margin-top: 30px;
+    background-color: black;
+}
+.dropdown-menu{
+    margin-left: 90px;
+    margin-top: 0px;
+    color: white;
+}
+
+.converterbtn{
+  background-color: violet;
+  border: 1px solid black;
+      border-radius: 7px;
+ 
+}
+.calculator {
+   font-size: 35px;
+    margin: 0 auto;
+    width: 10em;
+    padding-top: 50px;
+
+    background-color: rgba(0, 0, 0, 0.26);
+    border-radius: 25px;
+        padding-bottom: 20px;
+
+}
+.calculator::after {
+  clear: both;
+}
+
+.img-bcg{
+  background-image: url(img/calculator.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.num{
+
+     font-size: 33px;
+    color: rgba(238, 130, 238, 0.72);
+    background-color: black;
+    border: 12px solid black;
+    border-radius: 7px;
+    margin-bottom: 18px;
+    margin-left: 6px;
+}
+.num:hover{
+ color: white;
+}
+
+.log-pic{
+  float: right; 
+  margin-right: 100px;
+   margin-top: -70px;
+   max-height: 105px;
+
+}
+.ops{
+   font-size: 36px;
+    color: rgba(238, 130, 238, 0.72);
+    background-color: black;
+    border: 12px solid black;
+    border-radius: 7px;
+    margin-left: 12px;
+}
+.ops:hover{
+  color: white;
+}
+.jednako{
+    font-size: 26px;
+    color: rgba(238, 130, 238, 0.72);
+    background-color: black;
+    border: 12px solid black;
+    border-radius: 7px;
+    height: 75px;
+    width: 93px;
+    margin-top: 15px;
+    margin-left: 12px;
+}
+.jednako:hover{
+  color: white;
+}
+.clear{
+  font-size: 30px;
+    color: rgba(238, 130, 238, 0.72);
+    background-color: black;
+    border: 12px solid black;
+    border-radius: 7px;
+    margin-bottom: 20px;
+    margin-top: 15px;
+}
+.clear:hover{
+  color: white;
+}
+.black{
+  padding-top: 160px;
+}
+.viewer{
+      margin-bottom: 17px;
+    font-size: 40px;
+}
+.padd{
+    padding-top: 30px;
+    margin-bottom: 20px;
+}
+.box{
+     background-color: rgba(0, 0, 0, 0.45);
+    padding-top: 37px;
+    margin-bottom: 55px;
+    padding-left: 8px;
+    border: none;
+    color: white;
+    font-size: 28px;
+    width: 100%;
+}
+.margin{
+    padding-top: 65px;
+}
+
+.converter{
+  display:none;
+}
+.list{
+   margin-left: 530px;
+    
+}
+.boxlist{
+     height: 33px;
+    width: 141px;
+    margin-left: 514px;
+    margin-top: 3px;
+}
+.converter-text{
+  color: white;
+  font-weight: bold;
+  color: rgba(156, 39, 176, 0.64);
+  font-size: 20px;
+   margin-left: 520px;
+  padding-top: 12px;
+}
+.textiznos{
+  color: rgb(159, 56, 159);
+  font-size: 15px;
+   /*margin-left: 806px;**/
+}
+.iznos{
+  margin-left: 14px;
+}
+.isplata{
+  color: rgba(156, 39, 176, 0.64);
+  margin-left: 730px;
+  margin-top: 23px;
+  font-weight: bold;
+  font-size: 18px;
+}
+.img-conv{
+   background-color: rgba(0, 0, 0, 0.26);
+   display: none;
+   height: 415px;
+   padding-top: 100px;
+}
+.btn1{
+    background-color: black;
+    color: violet;
+    border: none;
+    border-radius: 7px;
+    font-size: 19px;
+}
+.btn1:hover{
+    color: white;
+}
+.unesi{
+    color: violet;
+    margin-right: 30px;
+    margin-left: 271px;
+}
+.click{
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.form2{
+  margin-left: 700px;
+  margin-bottom: 200px;
+}
+.btn2{
+   margin-left: 13px;
+  color:violet;
+  background-color: black;
+  border: none; 
+  font-size: 20px;
+      margin-top: 39px;
+}
+
+.btn2:hover{
+    color: white;
+}
+.plus{
+    padding-top: 8px;
+    padding-bottom: 11px;
+}
+.time{
+  color: violet;
+  text-align: center;
+  font-size: 20px;
+}
+.log{
+    float: right;
+    margin-right: 100px;
+    margin-top: -53px;
+  }
+.ipcalculator{
+    margin-left: 610px;
+    margin-right: 221px;
+    color: white;
+    font-size: 20px;
+}
+.add{
+  
+    margin-bottom: 30px;
+    color: violet;
+}
+.btnip{
+    background-color: black;
+    border: none;
+    margin-left: 50px;
+    margin-top: 2px;
+    color: violet;
+    font-size: 20px;
+}
+.btnip:hover{
+  background-color: blue;
+}
+
+.label{
+      font-size: 17px;
+      margin-left: -28px;
+}
+.img3{
+    display: none;
+}
+.ip{
+  background-color: rgba(0, 0, 0, 0.57);
+  height: 450px;
+  margin-top: 4px;
+  padding-top: 36px;
+}
